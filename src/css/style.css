@@ -1,0 +1,47 @@
+body {
+    background-color: var(--background-color);
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card {
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+}
+
+.qr-code-image img {
+    width: 320px;
+    height: 320px;
+    border-radius: 15px;
+}
+
+.text {
+    width: 260px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.text h1 {
+    color: var(--title-color);
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.text p {
+    color: var(--paragraph-color);
+    font-weight: 400;
+    padding-top: 15px;
+}
